@@ -1,0 +1,31 @@
+@media screen {
+  .ace_editor {
+    border: 1px solid lightgray;
+    margin: 0 auto;
+    height: 400px;
+    width: 100%;
+  }
+  .lang-select {
+    width: 100px;
+    margin-right: 10px;
+  }
+  header .btn {
+    margin: 0 5px;
+  }
+  footer .btn {
+    margin: 0 5px;
+  }
+  .editor-footer, .editor-header {
+    margin: 10px 0;
+  }
+  .scrollmargin {
+    height: 80px;
+    text-align: center;
+  }
+  .cursor {
+    /*position:absolute;*/
+    background: rgba(0, 250, 0, 0.5);
+    z-index: 40;
+    width: 2px !important;
+  }
+}
